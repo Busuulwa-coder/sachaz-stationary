@@ -1,0 +1,27 @@
+body {
+    background-color: #ff800c;
+    align-items: center;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.my-class {
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid blue;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
