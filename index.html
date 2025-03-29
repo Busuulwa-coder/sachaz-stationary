@@ -3,48 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Sachaz Stationary</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="my-class">
-        <class>
-            <img src="./img/logo.png" alt="logo"/>
-        </class>
-        <class class="main">
-            <h1>Sachaz Stationary</h1>
-        </class>
-        <div>
-            <img src="./img/logo.png" alt="logo"/>
-            <h2>Contact us</h2>
+    <!-- Header Section -->
+    <header>
+        <img src="./assets/logo.jpg" alt="logo"/>
+        <div class="logo">BookShop</div>
+        <h3><a href="contact us.html">Contact us</a></h3>
+        <div class="cart">
+            <a href="#cart">Cart (0)</a>
         </div>
-    </div>
-    <div>
-        <h1>Services offered</h1>
-            <class>
-                <ol>
-                    <li>
-                        <h4>Stationary Services</h4>
-                    </li>
-                    <li>
-                        <h4>Packaging Services</h4>
-                    </li>
-                    <li>
-                        <h4>Advertising Services</h4>
-                    </li>
-                    <li>
-                        <h4>Printing Services</h4>
-                    </li>
-                    <li>
-                        <h4>Digital Marketing Services</h4>
-                    </li>
-                    <li>
-                        <h4>Events & Promotions</h4>
-                    </li>
-                </ol>
-            </class>
-        <div></div>
-        <div></div>
-    </div>
+        <!-- <h3><a href="contact us.html">Contact us</a></h3> -->
+    </header>
+
+    <!-- Book Listings -->
+    <section class="book-list">
+        <h2>Our Books</h2>
+        <div class="books">
+            <div class="book">
+                <img src="book1.jpg" alt="Book 1">
+                <h3>Book Title 1</h3>
+                <p>Price: $15</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="book2.jpg" alt="Book 2">
+                <h3>Book Title 2</h3>
+                <p>Price: $20</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="book3.jpg" alt="Book 3">
+                <h3>Book Title 3</h3>
+                <p>Price: $10</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart" class="cart-section">
+        <h2>Your Cart</h2>
+        <div class="cart-items">
+            <!-- Cart items will go here -->
+        </div>
+        <p>Total: $0</p>
+        <button class="checkout">Proceed to Checkout</button>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>BookShop &copy; 2025</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
